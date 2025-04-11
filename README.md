@@ -56,6 +56,11 @@ C’est puissant, car on évite la dérive entre ce qu’on teste et ce qui se p
 Mais pour que cette approche fonctionne bien, encore faut-il que l’interface entre l’application et sa dépendance 
 soit **claire et stable**.
 
+
+| Ce n'est pas parce que la dépendance fait tout cela             | Que l'on veut plus que ceci                                   |
+|-----------------------------------------------------------------|---------------------------------------------------------------|
+| <img src="swiss-knife-complex.png" alt="complex" height="220"/> | <img src="swiss-knife-simple.png" alt="simple" height="220"/> |
+
 👉 Moins on expose les détails techniques de la dépendance, plus il est facile de : 
  - écrire un contrat simple,
  - développer un simulateur fidèle,
